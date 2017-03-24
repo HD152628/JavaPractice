@@ -39,20 +39,20 @@ public class CarTest {
 		System.out.println("제조사명 : " + car1.getCompany());
 		System.out.println("모델명 : " + car1.getModel());
 		System.out.println("색상 : " + car1.getColor());
-		System.out.println("최대속도 : " + car1.getMaxSpeed());
-		System.out.printf("가격 : %,d\n",car1.getPrice());
+		System.out.println("최대속도 : " + car1.getMaxSpeed()+"km");
+		System.out.printf("가격 : %,d원\n",car1.getPrice());
 		System.out.println();
 		System.out.println("제조사명 : " + car2.getCompany());
 		System.out.println("모델명 : " + car2.getModel());
 		System.out.println("색상 : " + car2.getColor());
-		System.out.println("최대속도 : " + car2.getMaxSpeed());
-		System.out.println("가격 : " + car2.getPrice());
+		System.out.println("최대속도 : " + car2.getMaxSpeed()+"km");
+		System.out.println("가격 : " + car2.getPrice()+"원");
 		System.out.println();
 		System.out.println("제조사명 : " + car3.getCompany());
 		System.out.println("모델명 : " + car3.getModel());
 		System.out.println("색상 : " + car3.getColor());
-		System.out.println("최대속도 : " + car3.getMaxSpeed());
-		System.out.println("가격 : " + car3.getPrice());
+		System.out.println("최대속도 : " + car3.getMaxSpeed()+"km");
+		System.out.println("가격 : " + car3.getPrice()+"원");
 		
 	}
 }
