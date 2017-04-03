@@ -38,12 +38,11 @@ public class Question {
 
 		System.out.println("<< 결과 출력 >>");
 
+		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < 3; i++) {
-			StringBuilder sb = new StringBuilder(questions[i]);
-			sb.append(answers[i]);
-			sb.append("입니다.");
-			System.out.println(sb.toString());
+			sb.append(questions[i]).append(" " + answers[i]).append("입니다.\n");
 		}
+		System.out.println(sb.toString());
 	}
 
 }
