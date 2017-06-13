@@ -48,6 +48,8 @@ public class MelonGenreChart {
 		
 		System.out.println("--<<전체 리스트 삭제>>--");
 		map.clear();
+		balladArrayList.clear();
+		danceArrayList.clear();
 	}
 	public static void printMap(Map<String,List<Music>> map){
 		for(String key : map.keySet()){
